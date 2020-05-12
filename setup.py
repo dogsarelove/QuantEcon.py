@@ -2,6 +2,10 @@
 from setuptools import setup, find_packages
 import os
 
+# Useless addition
+from datetime import date
+print(date.today())
+
 #-Write Versions File-#
 
 VERSION = '0.4.7'
